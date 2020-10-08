@@ -49,7 +49,7 @@
 					    	<div class="icon d-flex justify-content-center align-items-center"><span class="ion-ios-time"></span></div>
 						    <div class="text">
 						    	<span>Working Hours</span>
-						    	<span> 7days/ 24H</span>
+						    	<span> 7days/24H</span>
 						    </div>
 					    </div>
 				    </div>
@@ -92,15 +92,15 @@
         </form>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
-	        	<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	        	<li class="nav-item"><a href="index.html" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="index.html" class="nav-link">Team</a></li>
-	        	<li class="nav-item"><a href="index.html" class="nav-link">Partners</a></li>
-	        	<li class="nav-item"><a href="index.html" class="nav-link">Services</a></li>
-	        	<li class="nav-item"><a href="index.html" class="nav-link">Blog</a></li>
-				<li class="nav-item"><a href="index.html" class="nav-link">Join With Us</a></li>
-				<li class="nav-item"><a href="index.html" class="nav-link">Donor</a></li>
-	          <li class="nav-item"><a href="index.html" class="nav-link">Contact</a></li>
+	        	<li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
+	        	<li class="nav-item"><a href="/" class="nav-link">About</a></li>
+	        	<li class="nav-item"><a href="/" class="nav-link">Team</a></li>
+	        	<li class="nav-item"><a href="/" class="nav-link">Partners</a></li>
+	        	<li class="nav-item"><a href="/" class="nav-link">Services</a></li>
+	        	<li class="nav-item"><a href="/" class="nav-link">Blog</a></li>
+				<li class="nav-item"><a href="{{route("home")}}/#donor_registration" class="nav-link">Join With Us</a></li>
+				<li class="nav-item"><a href="/" class="nav-link">Donor</a></li>
+	          <li class="nav-item"><a href="/" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>

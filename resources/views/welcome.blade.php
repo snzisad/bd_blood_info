@@ -12,8 +12,8 @@
     </div>
   @endif
 
-  @if (!empty($message))
-    <p class="text-white bg-success" style="text-align: center;padding: 10; font-size: 20;">{{$message}}</p>
+  @if (session('message'))
+    <p class="text-white bg-success" style="text-align: center;padding: 10; font-size: 20;">{{session('message')}}</p>
   @endif
 
     <!-- Start 1st Slide Show -->
@@ -38,7 +38,7 @@
                     <div class="col-md-7 ftco-animate mb-md-5">
                         <span class="subheading">Largest Online Blood Bank</span>
                         <h1 class="mb-4">We Help to Save Your Life</h1>
-                        <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Join With Us</a></p>
+                        <p><a href="/#donor_registration" class="btn btn-primary px-4 py-3 mt-3">Join With Us</a></p>
                     </div>
                 </div>
             </div>
@@ -64,14 +64,14 @@
                     <div class="col-md-7 ftco-animate mb-md-5">
                         <span class="subheading">Largest Online Blood Bank</span>
                         <h1 class="mb-4">We Help to Save Your Life</h1>
-                        <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Join With Us</a></p>
+                        <p><a href="/#donor_registration" class="btn btn-primary px-4 py-3 mt-3">Join With Us</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="ftco-section ftco-no-pt ftco-no-pb ftco-consult">
+    <section class="ftco-section ftco-no-pt ftco-no-pb ftco-consult" id="donor_registration">
         <div class="container">
             <div class="row d-flex no-gutters align-items-stretch	consult-wrap">
                 <div class="col-md-5 wrap-about align-items-stretch d-flex">
@@ -582,23 +582,3 @@
 		</section>
 
 @endsection
-
-<!-- Modal -->
-<div class="modal fade" id="responseModal" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="responseModalTitle">Success</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        Thanks for joining with us
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
-      </div>
-    </div>
-  </div>
-</div>

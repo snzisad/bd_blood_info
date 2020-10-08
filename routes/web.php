@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+// Auth::routes();
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,6 +18,6 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', "HomeController@showHomePage");
+Route::get('/', "HomeController@showHomePage")->name('home');
 
-Route::post('/user/add', "HomeController@addDonor")->name('add_donor');
+Route::post('/user/add', "AuthController@addDonor")->name('add_donor');
